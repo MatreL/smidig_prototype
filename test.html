@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="test.css" type="text/css">
     <meta charset="UTF-8">
     <title>Test</title>
 </head>
 <body>
+   <main>
+    <h1>Are you Br!ght?</h1>
 
+    <div id="flex-container">
+    <img id="image1" class="answer-image"  onclick="clickCorrect()" alt="click to answer" src="images/Skjermbilde%202020-12-07%20kl.%2010.51.53.png">
+    <img id="image2" class="answer-image" onclick="clickWrong()" alt="click to answer" src="images/Skjermbilde%202020-12-07%20kl.%2010.52.07.png">
+    <img id="image3" class="answer-image" onclick="clickWrong()" alt="click to answer" src="images/Skjermbilde%202020-12-07%20kl.%2010.52.22.png">
+    </div>
+   </main>
+
+    <section id="answer-output">
+       <img id="correct" src="images/happy.png" alt="" style="display: none">
+       <img id="wrong" src="images/sad.png" alt="" style="display: none">
+    </section>
+
+    <script src="test.js"></script>
 </body>
 </html>
