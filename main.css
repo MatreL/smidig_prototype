@@ -1,0 +1,29 @@
+html, body{
+    width: 100%;
+    margin: 0;
+}
+
+#main-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.button img{
+    width: auto;
+    height: 200px;
+}
+
+.button{
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button h2{
+    margin-top: 50px;
+}
