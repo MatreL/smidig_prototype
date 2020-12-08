@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #415C6B;
+    color: #9ED18B;
+    margin: 0;
+}
+
+#flex-container {
+
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.answer-image {
+
+    margin: auto;
+    border: solid black 3px;
+    padding: 1rem;
+}
+.answer-image:hover{
+    border: solid #415C6B 3px;
+}
+
+#answer-output img{
+    height: 8rem;
+    margin: auto;
+    
+}
