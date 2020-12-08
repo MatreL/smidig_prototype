@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    border: black 1px solid;
+}
+
+#edu-vid{
+    text-align: center;
+    padding: 30px;
+}
