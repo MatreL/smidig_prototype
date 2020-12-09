@@ -1,0 +1,13 @@
+
+
+.image-right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-wrong {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
