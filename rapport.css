@@ -30,3 +30,10 @@ h1 {
    height:5rem;
    padding:13rem;
 }
+
+button{
+    float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
+}

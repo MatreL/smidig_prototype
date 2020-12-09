@@ -72,3 +72,10 @@ span{
 #Worker{
     left: 50px;
 }
+
+button{
+    float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
+}

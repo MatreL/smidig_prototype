@@ -37,7 +37,6 @@ h1 {
 button{
     float: left;
     padding: 10px;
-    position: relative;
     top: 5px;
     background-color: #415C6B;
 }

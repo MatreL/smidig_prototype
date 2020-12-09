@@ -33,3 +33,10 @@ h1 {
     color: #9ED18B;
     margin: 0;
 }
+
+button{
+    float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
+}

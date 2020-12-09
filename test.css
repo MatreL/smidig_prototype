@@ -37,3 +37,10 @@ h1 {
     margin: auto;
     
 }
+
+button{
+    float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
+}
