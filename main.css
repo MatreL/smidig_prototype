@@ -3,21 +3,74 @@ html, body{
     margin: 0;
 }
 
+body{
+    /*background-color: #405C6A;*/
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #405C6A;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#speak-icon{
+    margin-left: 2%;
+}
+
+#speak-icon img{
+    height: 60px;
+}
+
+#logo{
+    font-size: 30px;
+    color: #9FD18B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#log-out{
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 25px;
+    color: #415C6B;
+}
+
+#log-out img{
+    height: 20px;
+}
+
 #main-container{
     text-align: center;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 
 .button img{
     width: auto;
-    height: 200px;
+    height: 170px;
 }
 
 .button{
     padding: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    /*background-color: #2E414A;*/
+    color: white;
+    border: none;
+    /*box-shadow: 2px 2px 15px #2E414A;*/
 }
 
 a{
@@ -27,16 +80,33 @@ a{
 .button h2{
     margin-top: 50px;
 }
-h1 {
-    text-align: center;
-    padding: 2rem;
-    background-color: #415C6B;
-    color: #9ED18B;
-    margin: 0;
+
+#learn-btn{
+    background-color: #55879b;
+    transition: transform .4s;
 }
-#logout{
-    float: right;
-    padding: 10px;
-    top: 5px;
-    background-color: #415C6B;
+
+#learn-btn:hover{
+    background-color: #507e91;
+    transform: scale(1.1);
+}
+
+#report-btn{
+    background-color: #a74749;
+    transition: transform .4s;
+}
+
+#report-btn:hover{
+    background-color: #9c4445;
+    transform: scale(1.1);
+}
+
+#test-btn{
+    background-color: #65b17c;
+    transition: transform .4s;
+}
+
+#test-btn:hover{
+    background-color: #60a078;
+    transform: scale(1.1);
 }
