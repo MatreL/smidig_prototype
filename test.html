@@ -5,22 +5,47 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="test.css" type="text/css">
     <title>Testen</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-   <main>
-    <h1>Are you Br!ght?</h1>
 
+<header>
+    <a id="speak-icon" href="#"><img src="img/speak - white.png" alt="Speak Icon"></a>
+
+    <a id="logo" href="main.html">beBR!GHT</a>
+
+    <a id="log-out" href="login.html">
+        <img src="img/logout.png" alt="logout">
+        Log Out
+    </a>
+</header>
+
+   <main>
     <div id="flex-container">
-    <img id="image1" class="answer-image"  onclick="clickCorrect()" alt="click to answer" src="images/Skjermbilde%202020-12-07%20kl.%2010.51.53.png">
-    <img id="image2" class="answer-image" onclick="clickWrong()" alt="click to answer" src="images/Skjermbilde%202020-12-07%20kl.%2010.52.07.png">
-    <img id="image3" class="answer-image" onclick="clickWrong()" alt="click to answer" src="images/Skjermbilde%202020-12-07%20kl.%2010.52.22.png">
+    <img id="image1" class="answer-image"  onclick="clickCorrect()" alt="click to answer" src="img/Skjermbilde%202020-12-07%20kl.%2010.51.53.png">
+    <img id="image2" class="answer-image" onclick="clickWrong()" alt="click to answer" src="img/Skjermbilde%202020-12-07%20kl.%2010.52.07.png">
+    <img id="image3" class="answer-image" onclick="clickWrong()" alt="click to answer" src="img/Skjermbilde%202020-12-07%20kl.%2010.52.22.png">
     </div>
    </main>
 
     <section id="answer-output">
-       <img id="correct" src="images/happy.png" alt="" style="display: none">
-       <img id="wrong" src="images/sad.png" alt="" style="display: none">
+       <img id="correct" src="img/happy.png" alt="" style="display: none">
+       <img id="wrong" src="img/sad.png" alt="" style="display: none">
     </section>
+
+<footer>
+
+    <a href="eduVideo.html">
+        <img class="nav-btn" id="back-button" height="100px" width="150px" src="img/icon1-black.png">
+    </a>
+
+    <a href="result.html">
+        <img class="nav-btn" id="forward-button" height="100px" width="150px" src="img/icon4-black.png">
+    </a>
+
+</footer>
 
     <script src="test.js"></script>
 </body>
