@@ -13,7 +13,13 @@ header{
     background-color: #415C6B;
     color: #9ED18B;
 }
-
+h1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #415C6B;
+    color: #9ED18B;
+    margin: 0;
+}
 
 #edu-vid{
     text-align: center;

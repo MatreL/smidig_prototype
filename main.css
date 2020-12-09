@@ -27,3 +27,10 @@ a{
 .button h2{
     margin-top: 50px;
 }
+h1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #415C6B;
+    color: #9ED18B;
+    margin: 0;
+}

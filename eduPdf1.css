@@ -26,3 +26,10 @@ header{
 #pdf-img{
     text-align: center;
 }
+h1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #415C6B;
+    color: #9ED18B;
+    margin: 0;
+}
