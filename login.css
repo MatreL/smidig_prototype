@@ -23,10 +23,13 @@ body{
     overflow: hidden;
 }
 h1{
-    color: #9ED18B;
     position:absolute;
     left: 120px;
     top: 50px;
+    font-size: 30px;
+    color: #9FD18B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -71,4 +74,11 @@ span{
 }
 #Worker{
     left: 50px;
+}
+
+button{
+    float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
 }
