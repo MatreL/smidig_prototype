@@ -34,8 +34,14 @@ h1 {
     left: 650px;
 }
 
-button{
+#front{
     float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
+}
+#logout{
+    float: right;
     padding: 10px;
     top: 5px;
     background-color: #415C6B;

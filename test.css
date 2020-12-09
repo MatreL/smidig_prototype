@@ -35,11 +35,17 @@ h1 {
 #answer-output img{
     height: 8rem;
     margin: auto;
-    
+
 }
 
-button{
+#front{
     float: left;
+    padding: 10px;
+    top: 5px;
+    background-color: #415C6B;
+}
+#logout{
+    float: right;
     padding: 10px;
     top: 5px;
     background-color: #415C6B;
