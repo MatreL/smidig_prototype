@@ -88,7 +88,7 @@ a{
 
 #learn-btn:hover{
     background-color: #507e91;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 #report-btn{
@@ -98,7 +98,7 @@ a{
 
 #report-btn:hover{
     background-color: #9c4445;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 #test-btn{
@@ -108,5 +108,5 @@ a{
 
 #test-btn:hover{
     background-color: #60a078;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
