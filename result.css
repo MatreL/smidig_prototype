@@ -1,12 +1,66 @@
-#front{
-    float: left;
-    padding: 10px;
-    top: 5px;
-    background-color: #415C6B;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #405C6A;
 }
-#logout{
-    float: right;
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#speak-icon{
+    margin-left: 2%;
+}
+
+#speak-icon img{
+    height: 60px;
+}
+
+#logo{
+    font-size: 30px;
+    color: #9FD18B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#log-out{
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px solid white;
     padding: 10px;
-    top: 5px;
-    background-color: #415C6B;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 25px;
+    color: #415C6B;
+}
+
+#log-out img{
+    height: 20px;
+}
+.button img{
+    width: auto;
+    height: 170px;
+}
+
+.button{
+    padding: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    /*background-color: #2E414A;*/
+    color: white;
+    border: none;
+    /*box-shadow: 2px 2px 15px #2E414A;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.button h2{
+    margin-top: 50px;
 }
