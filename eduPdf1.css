@@ -83,3 +83,9 @@ footer{
 .nav-btn{
     margin: 50px;
 }
+#print{
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    left: 46%;
+}
