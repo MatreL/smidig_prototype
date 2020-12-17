@@ -64,3 +64,8 @@ a{
 .button h2{
     margin-top: 50px;
 }
+#right{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
